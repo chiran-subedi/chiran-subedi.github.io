@@ -1,9 +1,52 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-<p>chiran</p>
-</body>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<title>Personal Site Of Chiran Subedi</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/flexslider.css">
+		<link  id ="theme" rel="stylesheet" href="css/main.css">
+		<link href='http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,700,700italic,900' rel='stylesheet' type='text/css'>
+	</head>
+	<body data-spy="scroll" data-target="#main-nav" data-offset="200">
+		<div id="main-nav" class="navbar navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand scrollto" href="#home">Chiran Subedi<div class="hr-center"></div><span>Web Developer</span></a>
+				</div>
+			</div>
+		</div>
+		<header id="home" class="chiran-slide">
+			<div class="container">
+				<div class="message-box clearfix">
+					<div class="left-col">
+						<p>I AM <span>CHIRAN SUBEDI</span><br/>and I'm a <span style="color:#1abc9c">web</span></p>
+					</div>	
+					<div class="right-col flexslider home-slider" style="z-index:1;">
+						<ul class="slides">
+							<li><p>Designer</p></li>
+							<li><p>Developer</p></li>
+							<li><p>Expert</p></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src='js/jquery.flexslider.min.js'></script>
+		<script>
+			$(document).ready(function() {
+				$('.home-slider').flexslider({
+					animation: "slide",
+					directionNav: false,
+					controlNav: false,
+					direction: "vertical",
+					slideshowSpeed: 2500,
+					animationSpeed: 500,
+					smoothHeight: false
+				});
+			});	
+		</script>
+	</body>
 </html>
