@@ -24,12 +24,6 @@
     font-weight:300;
 }
 
-
-.chiran-slide {
-    background:transparent;
-    color:#rgb(52, 73, 94);
-}
-
 header.chiran-slide{
     padding:0;
     margin-bottom:0;
@@ -45,8 +39,6 @@ header.chiran-slide{
   width: 90%;
   margin: 300px auto 0;
   padding: 20px 0;
-  background-color: rgba(171, 169, 169, 0.13);
-  border: 1px solid rgba(153, 153, 153, 0.17);
 }
 
 .chiran-slide .left-col{
